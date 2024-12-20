@@ -30,7 +30,7 @@ function Login() {
         credentials.email,
         credentials.password
       );
-      navigate('/dashboard');
+      navigate('/profile');
     } catch (err) {
       setError(err.message);
     }
