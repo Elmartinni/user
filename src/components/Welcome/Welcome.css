@@ -1,0 +1,41 @@
+.welcome-page {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #667eea, #764ba2);
+  text-align: center;
+  padding: 20px;
+}
+
+.welcome-content {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-content h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.welcome-content p {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.get-started-btn {
+  background: #764ba2;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.get-started-btn:hover {
+  background: #667eea;
+} 
