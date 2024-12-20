@@ -1,0 +1,50 @@
+.notifications-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.notifications-list {
+  margin-top: 1.5rem;
+}
+
+.notification-item {
+  display: flex;
+  align-items: flex-start;
+  padding: 1rem;
+  background: white;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.notification-icon {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  min-width: 40px;
+  text-align: center;
+}
+
+.notification-content {
+  flex: 1;
+}
+
+.notification-content p {
+  margin: 0;
+  color: #333;
+}
+
+.notification-time {
+  font-size: 0.8rem;
+  color: #666;
+  display: block;
+  margin-top: 0.5rem;
+}
+
+.no-notifications {
+  text-align: center;
+  color: #666;
+  padding: 2rem;
+  background: white;
+  border-radius: 8px;
+} 

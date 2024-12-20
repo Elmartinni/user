@@ -1,0 +1,29 @@
+.presence-indicator {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.presence-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #ccc;
+}
+
+.presence-indicator.online .presence-dot {
+  background: #4caf50;
+}
+
+.presence-indicator.offline .presence-dot {
+  background: #9e9e9e;
+}
+
+.presence-text {
+  color: #666;
+}
+
+.presence-indicator.online .presence-text {
+  color: #4caf50;
+} 
